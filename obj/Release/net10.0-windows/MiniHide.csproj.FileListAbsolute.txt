@@ -1,0 +1,19 @@
+﻿C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\bin\Release\net10.0-windows\MiniHide.exe
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\bin\Release\net10.0-windows\MiniHide.deps.json
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\bin\Release\net10.0-windows\MiniHide.runtimeconfig.json
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\bin\Release\net10.0-windows\MiniHide.dll
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.AboutForm.resources
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.MainForm.resources
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.Properties.Resources.resources
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.SettingsForm.resources
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.csproj.GenerateResource.cache
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.AssemblyInfoInputs.cache
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.AssemblyInfo.cs
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.csproj.CoreCompileInputs.cache
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.dll
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\refint\MiniHide.dll
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.genruntimeconfig.cache
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\ref\MiniHide.dll
+C:\Users\mark\Documents\Visual Studio\MiniHide\MiniHide\obj\Release\net10.0-windows\MiniHide.DiagnosticsForm.resources
+

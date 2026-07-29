@@ -1,0 +1,3 @@
+﻿C:\Users\mark\Documents\Visual Studio\publish\MiniHide.pdb
+C:\Users\mark\Documents\Visual Studio\publish\MiniHide.exe
+

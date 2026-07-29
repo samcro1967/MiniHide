@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows10.0.17763.0</TargetFramework>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<ApplicationIcon>Resources\MiniHide.ico</ApplicationIcon>
+		<StartupObject>MiniHide.Program</StartupObject>
+
+		<AssemblyName>MiniHide</AssemblyName>
+		<Title>MiniHide</Title>
+		<Product>MiniHide</Product>
+		<Description>Hide and restore windows using a configurable global hotkey.</Description>
+
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<InformationalVersion>1.0.0</InformationalVersion>
+
+		<!-- 🔥 SINGLE FILE CONFIG -->
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+
+		<!-- Size optimizations -->
+		<EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+		<InvariantGlobalization>true</InvariantGlobalization>
+
+		<!-- 🚫 NO SYMBOLS -->
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Resources\about.ico" />
+	  <None Remove="Resources\exit.ico" />
+	  <None Remove="Resources\MiniHide.ico" />
+	  <None Remove="Resources\restore.ico" />
+	  <None Remove="Resources\settings.ico" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\about.ico">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\exit.ico">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\MiniHide.ico">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\restore.ico">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Resources\settings.ico">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>
+
+</Project>
