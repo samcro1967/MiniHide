@@ -30,7 +30,7 @@ It allows you to quickly hide any active window and restore it later using globa
 
 ## Installation
 
-1. Download the latest MiniHideSetup.exe
+1. Download the latest `MiniHideSetup.exe`
 2. Run the installer
 3. Launch MiniHide (runs in system tray)
 
@@ -47,7 +47,7 @@ It allows you to quickly hide any active window and restore it later using globa
 
 - Restore individual windows
 - Restore all windows
-- Open settings
+- Open Settings
 - Exit application
 
 ---
@@ -56,12 +56,14 @@ It allows you to quickly hide any active window and restore it later using globa
 
 Settings are stored at:
 
+```
 %LOCALAPPDATA%\MiniHide\settings.json
+```
 
 You can modify settings manually:
 
 1. Close MiniHide
-2. Edit settings.json
+2. Edit `settings.json`
 3. Restart MiniHide
 
 ---
@@ -70,10 +72,27 @@ You can modify settings manually:
 
 Requirements:
 
-- Visual Studio 2026 or later
-- .NET 10 SDK
+- [Visual Studio](https://visualstudio.microsoft.com/) 2026 or later
+- [.NET 10 SDK](https://dotnet.microsoft.com/)
 
-Open the solution and build the project.
+Build steps:
+
+1. Open the solution in Visual Studio
+2. Build the project
+
+---
+
+## Project Structure
+
+```
+MiniHide/
+  UI/            # Forms (Settings, About, Diagnostics)
+  Managers/      # Application orchestration and services
+  Native/        # Win32 interop and message handling
+  Models/        # Data structures
+  Helpers/       # Utility classes
+  Resources/     # Icons and assets
+```
 
 ---
 
@@ -81,7 +100,7 @@ Open the solution and build the project.
 
 MiniHide is licensed under the MIT License.
 
-See LICENSE for details.
+See [LICENSE](LICENSE) for details.
 
 ---
 
