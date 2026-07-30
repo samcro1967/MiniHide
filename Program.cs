@@ -1,4 +1,5 @@
 ﻿using System.Threading;
+using MiniHide.Managers;
 
 namespace MiniHide
 {

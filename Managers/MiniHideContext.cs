@@ -1,9 +1,9 @@
 ﻿using Microsoft.Win32;
 using MiniHide.Helpers;
-using MiniHide.Managers;
 using MiniHide.Models;
+using MiniHide.Native;
 
-namespace MiniHide;
+namespace MiniHide.Managers;
 
 public sealed class MiniHideContext : ApplicationContext
 {

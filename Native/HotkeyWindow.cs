@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace MiniHide;
+namespace MiniHide.Native;
 
 internal sealed class HotkeyWindow : NativeWindow, IDisposable
 {
