@@ -20,6 +20,14 @@ It allows you to quickly hide any active window and restore it later using globa
 
 ---
 
+## Screenshots
+
+| Settings | About | Tray Menu |
+|---------|------|----------|
+| ![](docs/images/Settings.png) | ![](docs/images/About.png) | ![](docs/images/TrayMenu.png) |
+
+---
+
 ## Installation
 
 1. Download the latest MiniHideSetup.exe
